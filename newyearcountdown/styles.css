@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/snow5.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 65px;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.container-text {
+  margin-right: 50px;
+  margin-left: 50px;
+  line-height: 1;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.p-text {
+  margin-bottom: 15px;
+  font-size: 6rem;
+  font-weight: 700;
+}
